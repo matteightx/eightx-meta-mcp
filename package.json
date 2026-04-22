@@ -1,0 +1,32 @@
+{
+  "name": "@eightx/meta-mcp",
+  "version": "1.0.0",
+  "description": "Read-only Meta Ads + Instagram Business MCP server. Pull campaign performance, ad creative metrics, IG insights, and Ad Library research. Built by 8x.",
+  "type": "module",
+  "license": "MIT",
+  "author": "8x — eightx.co",
+  "homepage": "https://github.com/matteightx/eightx-meta-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matteightx/eightx-meta-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "meta",
+    "facebook",
+    "instagram",
+    "ads",
+    "marketing",
+    "ai-cfo",
+    "claude"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "zod": "^3.23.0"
+  }
+}
